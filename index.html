@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARCHIVO 0.95</title>
 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="ticker">
+    📰 Inicializando ARCHIVO-0.95...
+  </div>
+
+  <div id="hud">
+    ⭐ Reputación: <span id="rep">100</span>
+  </div>
+
+  <div id="paper-container">
+
+    <div id="paper">
+      <h1>📄 EXPEDIENTE</h1>
+
+      <p id="values"></p>
+
+      <div id="buttons">
+        <button onclick="clasificar('excelente')">
+          EXCELENTE
+        </button>
+
+        <button onclick="clasificar('aceptable')">
+          ACEPTABLE
+        </button>
+
+        <button onclick="clasificar('rechazar')">
+          RECHAZAR
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="game.js"></script>
+
+</body>
+</html>
