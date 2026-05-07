@@ -12,12 +12,52 @@ const noticias = [
 
 function generarPaper(){
 
+  let tipo = Math.random();
+
+  // 🔴 PAPER MALO
+  if(tipo < 0.6){
+
+    return {
+
+      tipo:"rechazar",
+
+      CFI:(Math.random()*0.89).toFixed(2),
+      TLI:(Math.random()*0.89).toFixed(2),
+
+      RMSEA:(0.09 + Math.random()*0.3).toFixed(2),
+      SRMR:(0.09 + Math.random()*0.3).toFixed(2)
+
+    };
+
+  }
+
+  // 🟡 PAPER ACEPTABLE
+  if(tipo < 0.9){
+
+    return {
+
+      tipo:"aceptable",
+
+      CFI:(0.90 + Math.random()*0.05).toFixed(2),
+      TLI:(0.90 + Math.random()*0.05).toFixed(2),
+
+      RMSEA:(0.05 + Math.random()*0.03).toFixed(2),
+      SRMR:(0.05 + Math.random()*0.03).toFixed(2)
+
+    };
+
+  }
+
+  // 🟣 PAPER EXCELENTE
   return {
 
-    CFI:(Math.random()).toFixed(2),
-    TLI:(Math.random()).toFixed(2),
-    RMSEA:(Math.random()).toFixed(2),
-    SRMR:(Math.random()).toFixed(2)
+    tipo:"excelente",
+
+    CFI:(0.95 + Math.random()*0.04).toFixed(2),
+    TLI:(0.95 + Math.random()*0.04).toFixed(2),
+
+    RMSEA:(Math.random()*0.04).toFixed(2),
+    SRMR:(Math.random()*0.04).toFixed(2)
 
   };
 
