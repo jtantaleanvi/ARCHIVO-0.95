@@ -108,13 +108,35 @@ function clasificar(decision){
 
   if(decision === correcta){
 
-    reputacion += 10;
-
-  }else{
-
-    reputacion -= 15;
-
+  if(correcta === "excelente"){
+    reputacion += 25;
   }
+
+  else if(correcta === "aceptable"){
+    reputacion += 15;
+  }
+
+  else if(correcta === "rechazar"){
+    reputacion += 5;
+  }
+
+}else{
+
+  // castigamos según el error
+
+  if(correcta === "excelente"){
+    reputacion -= 30;
+  }
+
+  else if(correcta === "aceptable"){
+    reputacion -= 20;
+  }
+
+  else if(correcta === "rechazar"){
+    reputacion -= 25;
+  }
+
+}
 
   document.getElementById("rep").innerText = reputacion;
 
