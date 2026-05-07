@@ -1,3 +1,4 @@
+let rechazosSeguidos = 0;
 let reputacion = 100;
 
 let paperActual = null;
@@ -106,6 +107,16 @@ function clasificar(decision){
 
   let correcta = evaluarModelo(paperActual);
 
+  // CONTADOR DE RECHAZOS 
+  
+  if(decision === "rechazar"){
+  rechazosSeguidos++;
+}else{
+  rechazosSeguidos = 0;
+}
+
+  // RECOMPENSAS
+  
   if(decision === correcta){
 
   if(correcta === "excelente"){
@@ -154,6 +165,16 @@ function clasificar(decision){
 
   }
 
+  if(rechazosSeguidos >= 5){
+
+  reputacion -= 20;
+
+  document.getElementById("ticker").innerText =
+    "⚠ Sesgo editorial detectado";
+
+  rechazosSeguidos = 0;
+
+}
   mostrarPaper();
 
 }
