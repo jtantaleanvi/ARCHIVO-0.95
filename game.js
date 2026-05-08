@@ -361,7 +361,7 @@ function clasificar(decision){
 
 }
 
-  if(Math.random() < 0.25){
+  if(true){
     
   mostrarPaper();
 
