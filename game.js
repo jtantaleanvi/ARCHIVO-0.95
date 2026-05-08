@@ -1,3 +1,12 @@
+const popups = [
+
+"SPSS dejó de responder",
+"⚠ Error metodológico inesperado",
+"🤖 IA detectó emociones humanas",
+"📊 Excel eliminó una columna importante",
+"🧠 Revisor 2 ha despertado"
+
+];
 let paperID = 1;
 let rechazosSeguidos = 0;
 let reputacion = 100;
@@ -351,8 +360,34 @@ function clasificar(decision){
   rechazosSeguidos = 0;
 
 }
+
+  if(Math.random() < 0.25){
+    
   mostrarPaper();
 
 }
 
 mostrarPaper();
+
+
+function mostrarPopup(){
+
+  let mensaje =
+    popups[Math.floor(Math.random()*popups.length)];
+
+  document.getElementById("popup-text").innerText =
+    mensaje;
+
+  document.getElementById("popup").style.display =
+    "block";
+
+}
+
+function cerrarPopup(){
+
+  document.getElementById("popup").style.display =
+    "none";
+
+}
+
+
