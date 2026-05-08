@@ -344,7 +344,7 @@ function clasificar(decision){
 
   if(reputacion <= 0){
 
-    alert("💀 ARCHIVO-0.95 TE HA EXPULSADO");
+    alert("💀 HAS SIDO DESPEDIDO");
 
     location.reload();
 
