@@ -1,3 +1,4 @@
+let paperID = 1;
 let rechazosSeguidos = 0;
 let reputacion = 100;
 
