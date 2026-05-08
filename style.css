@@ -37,6 +37,16 @@ body{
   border:2px solid #808080;
 }
 
+#paper-id{
+
+  font-size:14px;
+
+  margin-top:10px;
+
+  color:#404040;
+
+}
+
 #window-bar{
 
   background:#000080;
