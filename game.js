@@ -361,7 +361,7 @@ function clasificar(decision){
 
 }
 
-  if(true){
+  if(Math.random() < 0.07){
 
   mostrarPopup();
 
