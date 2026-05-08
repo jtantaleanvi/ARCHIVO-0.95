@@ -62,10 +62,123 @@ const noticias = [
 "☕ Café considerado variable moderadora",
 "🎓 Clase responde en silencio… sospechosamente coordinados",
 "🤖 IA mejora redacción… borra significado",
-"📊 Resultados claros… interpretación confusa"
+"📊 Resultados claros… interpretación confusa",
+
+"🧫 Rata de laboratorio escapa y ahora es coautora",
+"☕ Científico derrama café sobre datos… decide ‘improvisar’",
+"📊 Excel decide redondear todo a 0",
+"📚 Científicos descubren que no saben qué están midiendo",
+"🐒 Mono aprueba modelo con mejor ajuste que humanos",
+
+"🎲 Estudio acepta papers al azar… mejora impacto",
+"💬 Revisor comenta: ‘No me gusta el título’ → rechazo",
+"📝 Paper rechazado por usar ‘demasiados números’",
+"📢 Editor: ‘Confíen en su intuición’",
+"🌀 El modelo ajusta… espiritualmente",
+
+"📊 Investigador elimina outliers… desaparece la muestra",
+"🤖 IA propone marco teórico basado en horóscopos",
+"🎓 Estudiante cita Wikipedia… en APA",
+"📉 La desviación estándar también es emocional",
+"📚 Se pierde el marco teórico en una actualización de Word",
+
+"🧠 Investigador usa ChatGPT… ChatGPT pide vacaciones",
+"🐀 Sujeto experimental muerde al investigador principal",
+"📊 Participantes responden según vibra del día",
+"🤖 IA recomienda eliminar la ética para acelerar resultados",
+"🎓 Profesor descubre memes en los anexos",
+
+"📉 El modelo tiene excelente ajuste y pésima explicación",
+"📚 Artículo publicado por accidente… gana premio",
+"🧠 Investigador habla del RMSEA como si fuera astrología",
+"🐒 Mono logra publicar antes que doctorando",
+"📊 Tabla desaparece misteriosamente antes de la revisión",
+
+"🤖 IA detecta plagio… de sí misma",
+"🎓 Estudiantes responden encuesta en 8 segundos",
+"📉 Correlación significativa entre estrés y existencia",
+"📚 Marco teórico compuesto enteramente de PDFs piratas",
+"🧠 Revisor 2 despierta y rechaza 14 papers",
+
+"☕ Café reemplaza variable independiente",
+"📊 Participantes responden todo con 5 por rebeldía",
+"🤖 IA sugiere ‘inventar un poquito’ los datos",
+"🎓 Encuesta aplicada durante examen final… caos absoluto",
+"📉 Investigador olvida guardar y alcanza iluminación",
+
+"📚 Paper usa Comic Sans… comité entra en crisis",
+"🧠 Científico intenta explicar AFC usando Dragon Ball",
+"🐀 Rata obtiene mayor índice h que el laboratorio",
+"📊 SPSS deja de responder y redefine el destino",
+"🤖 IA redacta discusión filosóficamente incoherente",
+
+"🎓 Alumno usa ChatGPT para responder encuesta",
+"📉 Resultados no significativos… pero muy bonitos",
+"📚 Paper aceptado porque nadie quiso leerlo",
+"🧠 Modelo teórico sostenido únicamente por esperanza",
+"📊 Excel convierte fechas en tragedia estadística",
+
+"🤖 IA propone eliminar participantes ‘menos estéticos’",
+"🎓 Participantes creen que Likert es cantante",
+"📉 Error estándar alcanza niveles metafísicos",
+"📚 Científico cita fuente inexistente con total seguridad",
+"🧠 Hipótesis formulada después de ver resultados",
+
+"🐒 Mono completa revisión por pares exitosamente",
+"📊 Todos los caminos llevan a correlación",
+"🤖 IA detecta sarcasmo… rechaza humanidad",
+"🎓 Muestra compuesta exclusivamente por amigos",
+"📉 Modelo explica 3% de la varianza y 100% del sufrimiento",
+
+"📚 Revisor comenta únicamente: ‘meh’",
+"🧠 Investigador asegura que el alfa ‘se siente confiable’",
+"🐀 Rata destruye servidor y mejora metodología",
+"📊 Participantes usan encuesta para desahogarse emocionalmente",
+"🤖 IA reemplaza conclusión por poema existencial",
+
+"🎓 Estudiantes responden mientras ven TikTok",
+"📉 Error de tipeo crea nueva teoría psicológica",
+"📚 Se descubre que nadie leyó la introducción",
+"🧠 Científico olvida qué estaba investigando",
+"📊 Variable dependiente se independiza",
+
+"🤖 IA genera discusión usando frases motivacionales",
+"🎓 Encuesta aplicada en grupo… pensamiento colectivo activado",
+"📉 Datos normales estadísticamente, aterradores emocionalmente",
+"📚 Paper contiene una sola cita: ‘confía en mí’",
+"🧠 Investigador interpreta resultados según estado de ánimo",
+
+"📊 Participantes responden aleatoriamente… patrón emerge",
+"🤖 IA crea modelo imposible… ajusta perfecto",
+"🎓 Profesor amenaza con participación obligatoria ‘voluntaria’",
+"📉 Resultados inconclusos publicados con orgullo",
+"📚 Comité aprueba paper porque ‘ya era tarde’",
+
+"🧠 Alfa de Cronbach usado como argumento filosófico",
+"📊 Escala Likert provoca crisis existencial",
+"📉 Error muestral alcanza dimensiones bíblicas",
+"🤖 IA concluye: ‘los humanos fueron el sesgo’",
+"🎓 Estudiantes usan misma respuesta para todas las preguntas",
+
+"📚 Marco teórico armado cinco minutos antes",
+"🧠 Revisor 2 detecta felicidad… procede a rechazar",
+"📊 Gráfico 3D usado para ocultar malas noticias",
+"🤖 IA recomienda publicar y huir",
+"🎓 Participantes responden según hambre",
+
+"📉 La media ya no representa a nadie",
+"📚 Paper entra en revisión eterna",
+"🧠 Investigador cambia hipótesis ‘por estética’",
+"📊 Outlier resulta ser el investigador",
+"🤖 IA redacta limitaciones ofensivamente honestas",
+
+"🎓 Clase completa responde igual por telepatía académica",
+"📉 Resultados no replicables… pero inspiradores",
+"📚 Científico descubre nueva variable accidentalmente",
+"🧠 Estadístico abandona proyecto para criar cabras",
+"📊 La tabla 4 contiene secretos prohibidos"
 
 ];
-
 function generarPaper(){
 
   let tipo = Math.random();
