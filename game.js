@@ -237,6 +237,11 @@ function mostrarPaper(){
 
   paperActual = generarPaper();
 
+  document.getElementById("paper-id").innerText =
+  "EXPEDIENTE #" + String(paperID).padStart(3,'0');
+
+  paperID++;
+
   document.getElementById("values").innerHTML = `
   
   CFI: ${paperActual.CFI}<br>
@@ -247,7 +252,6 @@ function mostrarPaper(){
   `;
 
 }
-
 function evaluarModelo(m){
 
   if(
