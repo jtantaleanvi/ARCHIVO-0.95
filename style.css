@@ -1,12 +1,13 @@
 body{
   margin:0;
-  background:#0f1115;
+  background:#1b1d22;
   color:white;
-  font-family:Arial;
+  font-family: "Courier New", monospace;
 }
 
 #ticker{
-  background:#1b1f27;
+  background:#c0c0c0;
+color:black;
   padding:15px;
   border-bottom:2px solid #2f3642;
 }
@@ -24,10 +25,10 @@ body{
 
 #paper{
   width:500px;
-  background:#1b1f27;
+  background:#c0c0c0;
+color:black;
   padding:30px;
-  border-radius:10px;
-  box-shadow:0 0 20px rgba(0,0,0,0.5);
+  border:2px solid #808080;
 }
 
 #values{
@@ -43,13 +44,13 @@ button{
   padding:15px;
   margin:10px;
   border:none;
-  border-radius:8px;
   cursor:pointer;
   font-size:16px;
-  background:#2f3642;
-  color:white;
+  background:#d4d0c8;
+  color:black;
+  border:2px solid #808080; 
 }
 
 button:hover{
-  background:#445066;
+  background:#bcb8b0;
 }
