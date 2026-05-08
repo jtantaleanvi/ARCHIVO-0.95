@@ -242,6 +242,8 @@ function mostrarPaper(){
 
   paperID++;
 
+  console.log(paperID);
+
   document.getElementById("values").innerHTML = `
   
   CFI: ${paperActual.CFI}<br>
