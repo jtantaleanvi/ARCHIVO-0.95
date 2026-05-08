@@ -362,13 +362,16 @@ function clasificar(decision){
 }
 
   if(true){
-    
-  mostrarPaper();
+
+  mostrarPopup();
 
 }
 
 mostrarPaper();
 
+}
+
+mostrarPaper();
 
 function mostrarPopup(){
 
