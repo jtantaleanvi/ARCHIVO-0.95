@@ -4,11 +4,66 @@ let reputacion = 100;
 let paperActual = null;
 
 const noticias = [
-  "🧠 Nadie entiende el modelo, pero todos asienten",
-  "🤖 IA aprueba todo con confianza",
-  "📊 Excel ha decidido tu destino",
-  "🎓 Estudiantes responden al azar otra vez",
-  "📉 Todo es correlación, afirma experto cansado"
+
+"📊 Excel cambia comas por puntos… el modelo colapsa",
+"🧠 Investigador asegura que “se ve bien” → aprobado",
+"📉 Se pierde la base de datos… se decide “recordarla”",
+"☕ Café derramado mejora significativamente el ajuste",
+"🐒 Mono presiona teclas… obtiene mejor CFI",
+"📚 Paper de 300 páginas resumido en “todo ok”",
+"💬 Revisor 2 pide “algo más”… sin especificar",
+"🧪 Científico usa la misma muestra por quinta vez",
+"📊 Gráfica bonita aumenta credibilidad en 80%",
+"🧠 Autor olvida hipótesis… decide improvisar una",
+
+"🎓 Estudiantes responden encuesta al azar… mejora la fiabilidad",
+"🤖 IA redacta paper completo… revisor dice “muy humano”",
+"📊 Estudiantes marcan todo “neutral” por paz mental",
+"🤖 IA inventa referencias… todas parecen reales",
+"🎓 Encuesta aplicada viernes 7pm… resultados caóticos",
+
+"🤖 IA entiende perfectamente el modelo… decide ignorarlo",
+"🎓 Estudiantes responden con total sinceridad… resultados inutilizables",
+"📉 Datos inconsistentes… pero con mucha confianza",
+"🤖 IA concluye con seguridad… sin evidencia",
+"🎓 Muestra representativa… de una sola clase",
+
+"📊 Participantes descubren la escala Likert… la usan como arte abstracto",
+"🧠 Alfa de Cronbach alcanza 0.99… sospecha colectiva activada",
+"📊 Todos responden “ni de acuerdo ni en desacuerdo”… paz mundial lograda",
+"🧪 Validez de contenido evaluada por el primo del investigador",
+"📉 Confiabilidad aceptable… teoría inexistente",
+
+"🧠 73% de investigadores fingen entender el RMSEA",
+"📉 Todo es correlación, afirma experto cansado",
+"🧻 Nuevo índice: ‘CFI vibes’ reemplaza métricas reales",
+"📢 Editor: ‘Confíen en su intuición’",
+"🌀 Si el modelo ajusta pero nadie lo entiende… ¿ajusta?",
+
+"📊 El RMSEA es un estado mental",
+"🧠 El verdadero ajuste fueron los amigos que hicimos",
+"🎓 Alumno responde todo en diagonal… consistencia perfecta",
+"🤖 IA optimiza el modelo… elimina sentido teórico",
+"📉 Resultados ambiguos… conclusiones firmes",
+
+"📊 Gráfico sin etiquetas gana premio",
+"🐀 Rata aparece en agradecimientos",
+"🧠 Científico convence a todos con seguridad",
+"📚 Cita circular detectada… nadie la cuestiona",
+"📉 Modelo no converge… se ignora",
+
+"🎓 Encuesta aplicada temprano… respuestas medio dormidas",
+"🤖 IA genera resultados “demasiado buenos”",
+"📊 Escala Likert usada como binaria",
+"🧠 Ítems ambiguos… respuestas seguras",
+"📉 Error sistemático… tradición respetada",
+
+"🐒 Mono rechaza paper por aburrido",
+"☕ Café considerado variable moderadora",
+"🎓 Clase responde en silencio… sospechosamente coordinados",
+"🤖 IA mejora redacción… borra significado",
+"📊 Resultados claros… interpretación confusa"
+
 ];
 
 function generarPaper(){
