@@ -252,6 +252,7 @@ function mostrarPaper(){
   `;
 
 }
+
 function evaluarModelo(m){
 
   if(
