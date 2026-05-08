@@ -238,7 +238,7 @@ function mostrarPaper(){
   paperActual = generarPaper();
 
   document.getElementById("paper-id").innerText =
-  "EXPEDIENTE #" + String(paperID).padStart(3,'0');
+    "EXPEDIENTE #" + String(paperID).padStart(3,'0');
 
   paperID++;
 
