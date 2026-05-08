@@ -91,3 +91,46 @@ button{
   border-bottom:2px solid #404040;
 
 }
+
+#popup{
+
+  position:fixed;
+
+  top:50%;
+  left:50%;
+
+  transform:translate(-50%,-50%);
+
+  width:300px;
+
+  background:#c0c0c0;
+
+  color:black;
+
+  border:2px solid #808080;
+
+  display:none;
+
+  z-index:999;
+
+}
+
+#popup-bar{
+
+  background:#000080;
+
+  color:white;
+
+  padding:6px;
+
+  font-size:14px;
+
+}
+
+#popup-text{
+
+  padding:20px;
+
+}
+
+
